@@ -1,0 +1,1038 @@
+body {
+    margin: unset;
+    background-image: url(image/grey.png);
+    background-color: #F9F9F9 ;
+    background-repeat: no-repeat, repeat;
+    background-position: bottom right;
+    background-size: 66%;
+    font-family: 'Mont Regular', sans-serif;
+} 
+
+.Top-Container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Chiesi-Background {
+    background-image: url("image/pattern.svg");
+   padding: 36px 127px 160px 83px;
+   clip-path: polygon(0 0, 0 215px, 355px 0, 0 0);
+   width: 147px;
+   height: 40px;
+   vertical-align:top;
+}
+
+.Chiesi-Logo {
+    position: relative;
+    left: -50px;
+
+}
+
+.Envarsus-Logo-1 {
+    width:  150px;
+    height: 55.408px;
+    border-color:#e6e6e6 ;
+    position: relative;
+    right: 135px;
+    top: 23px;
+}
+
+.Line-Contaner {
+    display: flex;
+    justify-content: center;
+}
+
+.Line-1 {
+    position: relative;
+    right: -96px;
+    top: -136px;
+    display: flex ;
+    justify-content: center;
+    width: 100%;
+    transform: scale(67%);
+}
+
+.Title {
+color: var(--title-dark, #144356);
+font-family: 'Mont Regular', sans-serif;
+font-size: 55px;
+font-style: normal;
+font-weight: 600;
+line-height: 60px; /* 109.091% */
+margin: 0 0 0 0;
+width: 539px;
+position: relative;
+top: -20px;
+left: 135px;
+}
+
+.Description-Container {
+
+    display: flex;
+    position: relative;
+    bottom: 25px;
+}
+
+.Page-Img {
+    position: relative;
+    left: 135px;
+}
+
+.Description {
+width: 350px;
+height: 52px;
+color: var(--dark, #36383A);
+font-family: 'Mont Regular', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px; /* 155.556% */
+position: relative;
+left: 152px;
+top: 13px;
+}
+
+.Cards-Container {
+    display: flex;
+    justify-content: center;
+}
+
+.Card-1-Container {
+    width: 370px;
+    height: 261px;
+    border-radius: 10px;
+    border-radius: 0px 0px 6px 0px;
+    background-image: url(image/tri.png);
+    background-size: cover;
+    background-color:#b90066 ;
+    border-radius: 10px;
+    position: relative;
+    top: 30px;
+}
+
+.Card-1 {
+    color: var(--white, #FFF);
+    font-family: 'Mont Regular', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 150% */
+    width: 341px;
+    margin: 40px 0 0 40px;
+    pointer-events: none;
+}
+
+.Btn-1 {
+    margin: 81px 0 0 40px;
+    padding: 10px 16px;
+    align-items: center;
+    gap: 20px;
+    border-radius: 6px;
+    color: #B90066;
+    border: 1px solid #B90066;
+    font-family: 'Mont Regular', sans-serif;
+    background-color: white;
+}
+
+.Card-2-Container {
+    padding: 0 0 0 0 ;
+    width: 370px;
+    height: 261px;
+    margin: 30px 30px 00px 30px;
+    border-radius: 10px;
+    border-radius: 0px 0px 6px 0px;
+    background-image: url(image/tri2.png);
+    background-size: cover;
+    background-color: #2e3032 ;
+    border-radius: 10px;
+}
+
+.Card-2 {
+    margin: 40px 0 0 0;
+    color: var(--white, #FFF);
+    font-family: 'Mont Regular', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 150% */
+    width: 310px;
+    margin: 40px 0 0 40px;
+    pointer-events: none;
+}
+
+.Btn-2 {
+    margin: 51px 0 0 40px;
+    display: inline-flex;
+    padding: 10px 16px;
+    align-items: center;
+    gap: 20px;
+    border-radius: 6px;
+    color: #B90066;
+    border: 1px solid #B90066;
+    font-family: 'Mont Regular', sans-serif;
+    background-color: white;
+}
+
+.Card-3-Container {
+    padding: 0 0 0 0 ;
+    width: 370px;
+    height: 261px;
+    margin: 30px 0 0px 0px;
+    border-radius: 10px;
+    border-radius: 0px 0px 6px 0px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(8px);
+    border: 1px solid #dddddd;
+}
+
+.Card-3 {
+    margin: 40px 0 0 0;
+    color: #144356;
+    font-family: 'Mont Regular', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 150% */
+    width: 256px;
+    margin: 40px 0 0 40px;
+    pointer-events: none;
+}
+
+.Btn-3 {
+    margin: 81px 0 0 40px;
+    display: inline-flex;
+    padding: 10px 16px;
+    align-items: center;
+    gap: 20px;
+    border-radius: 6px;
+    color: #B90066;
+    border: 1px solid #B90066;
+    font-family: 'Mont Regular', sans-serif;
+    background-color: white;
+}
+
+.orange {
+    color: #E95E25;
+}
+
+.Bottom-Container {
+    background-color: #E3E3E3;
+    margin: 155PX 0 0 0;
+    display: flex;
+    padding: 0 0 27px 0;
+}
+
+.Certified-Logo {
+    margin: 50px 0 0 0px;
+    padding: 0px 0 0px 0;
+    position: relative;
+    left: 141px;
+}
+
+.Credit-Container {
+    display: flex;
+    margin: 0 0 0 8px;
+    font-family: 'Mont Regular', sans-serif;
+    position: relative;
+    padding: 0 0 51px 0;
+}
+
+.Credits {
+    display: flex;
+    font-family: 'Mont Regular', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    left: 141px;
+}
+
+.Credit-1 {
+    font-family: 'Mont Regular', sans-serif;
+    font-style: normal;
+    line-height: normal;
+    margin-right: 30px;
+}
+
+.Credit-2 {
+    font-family: 'Mont Regular', sans-serif;
+    font-style: normal;
+    line-height: normal;
+    margin-right: 30px;
+}
+
+.Credit-3 {
+    font-family: 'Mont Regular', sans-serif;
+    font-style: normal;
+    line-height: normal;
+    margin-right: 30px;
+}
+
+.Credit-4 {
+    font-family: 'Mont Regular', sans-serif;
+    font-style: normal;
+    line-height: normal;
+    margin-right: 30px;
+}
+
+.Credit-1, .Credit-2, .Credit-3, .Credit-4 {
+    position: relative;
+    left: 29px;
+    top: -17px;
+}
+
+.credlink {
+    color: #144356;
+    text-decoration: none;
+    position: relative;
+    top: 50px;
+    font-family: 'Mont Regular', sans-serif;
+}
+
+.Credits-2 {
+    position: relative;
+    margin: 0 0 0 100px;
+    right: 478px;
+    top: 98px;
+    color: var(--title-dark, #144356);
+    font-family: 'Mont Regular', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 215.385% */
+}
+
+.Date  {
+    font-family: 'Mont Regular', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.Date-1 {
+    font-family: 'Mont Regular', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    opacity: .5;
+    position: relative;
+    top: -20px;
+}
+
+.Envarsus-Logo-2 {
+    height: 42px;
+    position: relative;
+    left: -11px;
+    top: 76px;
+}
+
+.Chiesi-Logo-2 {
+    position: relative;
+    left: -52px;
+    top: 55px;
+}
+
+.line2 {
+
+    position: relative;
+    bottom: 75px;
+    left: 175px;
+}
+
+.Cards-Container :hover {
+        -webkit-animation-name: pulse;
+        animation-name: pulse;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        }
+        @-webkit-keyframes pulse {
+        0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+        }
+        100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        }
+        @keyframes pulse {
+        0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+        }
+        100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }       
+}
+
+.Btn-1:hover {
+    background-color: #E3E3E3;
+}
+.Btn-2:hover {
+    background-color: #E3E3E3;
+}
+.Btn-3:hover {
+    background-color: #E3E3E3;
+}
+
+
+
+
+
+@media (min-width: 2329px /*161%*/) {
+
+    .Chiesi-Background {
+        padding: 64px 226px 284px 147px;
+        clip-path: polygon(0 0, 0 382px, 631px 0, 0 0);
+        width: 261px;
+        height: 71px;
+        background-size: 100%;
+    }
+
+    .Chiesi-Logo {
+        transform: scale(177%);
+        Position: relative;
+        left: -18px;
+        top: 19px;
+
+    }
+    
+    .Envarsus-Logo-1 {
+        transform: scale(177%);
+        position: relative;
+        right: 282px ;
+        top: 65px ;
+
+    }
+    .Line-1 {
+        right: -170px;
+        top: -241px;
+        width: 103%;
+    }
+
+    .Title {
+        font-size: 97px;
+        font-weight: 1066;
+        line-height: 106px; /* 109.091% */
+        width: 958px;
+        top: -35px;
+        left: 239px;
+        }
+
+    .Description-Container {
+
+            display: flex;
+            position: relative;
+            bottom: 40px;
+            
+        }
+
+    .Page-Img {
+            position: relative;
+            left: 239px;
+            transform: scale(177%);
+        }
+
+    .Description {
+            width: 622px;
+            height: 92px;
+            font-size: 31px;
+            font-weight: 1066;
+            line-height: 49px; /* 155.556% */
+            position: relative;
+            left: 270px;
+            top: 23px;
+            }
+
+            .Cards-Container {
+                position: relative;
+                top: 9px;
+            }
+
+    .Card-1-Container {
+    width: 657px;
+    height: 463px;
+    border-radius: 17px;
+    border-radius: 0px 0px 10px 0px;
+    border-radius: 17px;
+    position: relative;
+    top: 53px;
+    }
+
+    .Card-1 {
+        font-size: 35px;
+        line-height: 53px; /* 150% */
+        width: 606px;
+        margin: 71px 0 0 71px;
+    }
+    
+    .Btn-1 {
+        margin: 160px 0 0 117px;
+        transform: scale(177%);
+        border-radius: 6px;
+        border: 1px solid #B90066;
+    }
+
+    .Card-2-Container {
+        width: 657px;
+        height: 463px;
+        margin: 53px 53px 00px 53px;
+        border-radius: 17px;
+        border-radius: 0px 0px 10px 0px;
+        border-radius: 17px;
+    }
+
+    .Card-2 {
+        margin: 71px 0 0 0;
+        font-size: 35px;
+        line-height: 53px; /* 150% */
+        width: 551px;
+        margin: 71px 0 0 71px;
+    }
+
+    .Btn-2 {
+        margin: 107px 0 0 117px;
+        transform: scale(177%);
+        border-radius: 6px;
+        border: 1px solid #B90066;
+    }
+
+    .Card-3-Container {
+        width: 657px;
+        height: 464px;
+        margin: 53px 0 0px 0px;
+        border-radius: 17px;
+        border-radius: 0px 0px 10px 0px;
+        border-radius: 10px;
+        border: 2px solid #dddddd;
+    }
+
+    .Card-3 {
+        margin: 71px 0 0 0;
+        font-size: 35px;
+        line-height: 53px; /* 150% */
+        width: 445px;
+        margin: 71px 0 0 71px;
+    }
+
+    .Btn-3 {
+        margin: 150px 0 0 117px;
+        border-radius: 6px;
+        border: 1px solid #B90066;
+        transform: scale(177%);
+    }
+
+    .Bottom-Container {
+        margin: 276PX 0 0 0;
+        padding: 0 0 58px 0;
+    }
+
+    .Certified-Logo {
+        margin: 129px 0 0 22px;
+        padding: 0px 0 0px 0;
+        left: 251px;
+        transform: scale(177%);
+    }
+
+    .Credit-Container {
+        display: flex;
+        margin: 0 0 0 14px;
+        padding: 0 0 91px 0;
+    }
+
+    .Credits {
+        font-size: 27px;
+        position: relative;
+        left: 251px;
+    }
+
+    .Credit-1, .Credit-2, .Credit-3, .Credit-4 {
+        margin: right 53.33px;
+        position: relative;
+        left: 52px;
+        top: -30px;
+    }
+
+    .credlink {
+        top: 88px;
+    }
+
+    .Credits-2 {
+        position: relative;
+        margin: 0 0 0 177px;
+        right: 770px;
+        top: 174px;
+        font-size: 23px;
+        line-height: 50px; /* 215.385% */
+    }
+
+    .Date  {
+        font-size: 28px;
+        font-weight: 1066;
+        line-height: 50px;
+    }
+
+    .Date-1 {
+        font-size: 23px;
+        line-height: 50px;
+        top: -35px;
+    }
+
+    .Envarsus-Logo-2 {
+        height: 75px;
+        position: relative;
+        left: 160px;
+        top: 140px;
+    }
+    
+    .Chiesi-Logo-2 {
+        position: relative;
+        left: 70px;
+        top: 100px;
+        transform: scale(177%);
+    }
+    
+    .line2 {
+        position: relative;
+        bottom: 108px;
+        left: 330px;
+        width: 40%;
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+}        
+
+
+
+
+
+
+
+
+
+@media (max-width: 1316px) {
+    .Cards-Container {
+        transform: scale(92%);
+    }
+
+    .Credits {
+        display: flex;
+        font-family: 'Mont Regular', sans-serif;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        position: relative;
+        left: 141px;
+        top: 20px;
+    }
+
+    .Credit-1 {
+        margin-right: 10px;
+    }
+    
+    .Credit-2 {
+        margin-right: 10px;
+    }
+    
+    .Credit-3 {
+        margin-right: 10px;
+    }
+    
+    .Credit-4 {
+        margin-right: 10px;
+    }
+
+    .Credits-2 {
+        position: relative;
+        left: -310px;
+        transform: scale(72%);
+        top: 80px;
+    }
+    
+}
+
+
+@media ((max-width: 1180px))  {
+
+    .Cards-Container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center ;
+        align-items:center;
+
+    }
+    .Card-3-Container {
+        margin: unset;
+    }
+
+    .Card-1, .Card-2, .Card-3 {
+        margin: unset;
+        width: 800px;
+        line-height: 100%;
+        font-size: 260%;
+        position: relative;
+        top: 30px;
+        left: 30px;
+    }
+
+    .Btn-1, .Btn-2, .Btn-3 {
+        position: relative;
+        left: 260px;
+        padding: 13px 0;
+        font-size: 150%;
+        width: 70%;
+        display: block;
+        border-radius: 12px;
+        
+    }
+
+    .Btn-3 {
+        position: relative;
+        top: 20px;
+    }
+
+    .Card-1-Container,.Card-2-Container, .Card-3-Container {
+        padding: 50px 500px 50px 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        border-radius: 20px;
+    }
+
+    .Card-2-Container {
+        position: relative;
+        top: 30px;
+    }
+
+    .Card-3-Container {
+        position: relative;
+        top: 60px;
+    }
+
+    .Credits {
+        text-align: center;
+    }
+
+    .Credits-2 {
+        text-align: center;
+        position: relative;
+    }
+
+    .Certified-Logo {
+        transform: scale(90%);
+        position: relative;
+        top: 30px;
+    }
+
+    .Envarsus-Logo-2 {
+        position: relative;
+        top: 77px;
+    }
+
+    .line2 {
+        transform: scale(50%);
+        position: relative;
+        left: 40px;
+    }
+
+    .Credit-Container {
+        position: relative;
+        right: 80px;
+    }
+
+    .Certified-Logo {
+        left: 60px;
+        top: 12px;
+    }
+    
+    
+}
+
+@media (max-width: 1092px) {
+
+    .line2 {
+        left: -30px;
+    }
+
+    .Chiesi-Logo-2 {
+        position: relative;
+        top: 43px;
+    }
+
+    .Credits-2 {
+        position: relative;
+        left: -280px;
+    }
+
+}
+
+@media (max-width: 1017px) {
+
+.Credits-2 {
+    padding: 0 0 0 90px;
+}
+
+}
+
+
+@media screen and (min-width: 1825px) and (max-width: 2328px) {
+
+    .Chiesi-Background {
+       padding: 46px 161px 203px 105px;
+       clip-path: polygon(0 0, 0 273px, 451px 0, 0 0);
+       width: 187px;
+       height: 51px;
+    }
+    
+    .Chiesi-Logo {
+        position: relative;
+        left: -50px;
+        top: 10px;
+        transform: scale(130%);
+    
+    }
+    
+    .Envarsus-Logo-1 {
+        width:  191px;
+        height: 70px;
+        position: relative;
+        right: 171px;
+        top: 29px;
+    }
+    
+    .Line-1 {
+        position: relative;
+        right: -132px;
+        top: -173px;
+        width: 100%;
+        transform: scale(67%);
+    }
+    .Title {
+        font-size: 70px;
+        line-height: 76px; /* 109.091% */
+        width: 684px;
+        top: -25px;
+        left: 171px;
+        }
+        
+        .Description-Container {
+        
+            position: relative;
+            bottom: 32px;
+        }
+        
+        .Page-Img {
+            position: relative;
+            left: 171px;
+            top: 3px;
+            transform: scale(127%);
+        }
+        
+        .Description {
+        width: 444px;
+        height: 66px;
+        font-size: 23px;
+        line-height: 36px; /* 155.556% */
+        position: relative;
+        left: 193px;
+        top: 16.51px;
+        }
+
+        .Card-1-Container {
+            width: 470px;
+            height: 331px;
+            position: relative;
+            top: 38px;
+        }
+        
+        .Card-1 {
+            font-size: 25px;
+            line-height: 38px; /* 150% */
+            width: 433px;
+            margin: 51px 0 0 51px;
+        }
+        
+        .Btn-1 {
+            margin: 110px 0 0 71px;
+            transform: scale(127%);
+        }
+        
+        .Card-2-Container {
+            width: 470px;
+            height: 331px;
+            margin: 38px 38px 00px 38px;
+        }
+        
+        .Card-2 {
+            margin: 51px 0 0 0;
+            font-size: 25px;
+            line-height: 38px; /* 150% */
+            width: 384px;
+            margin: 51px 0 0 51px;
+        }
+        
+        .Btn-2 {
+            margin: 72px 0 0 71px;
+            transform: scale(127%);
+        }
+        
+        .Card-3-Container {
+            width: 470px;
+            height: 331px;
+            margin: 38px 0 0px 0px;
+        }
+        
+        .Card-3 {
+            margin: 51px 0 0 0;
+            font-size: 25px;
+            line-height: 38px; /* 150% */
+            width: 315px;
+            margin: 51px 0 0 51px;
+        }
+        
+        .Btn-3 {
+            margin: 110px 0 0 71px;
+            transform: scale(127%);
+        }
+
+        .Bottom-Container {
+            margin: 197PX 0 0 0;
+            display: flex;
+            padding: 0 0 34px 0;
+        }
+        
+        .Certified-Logo {
+            margin: 63px 0 0 0px;
+            position: relative;
+            left: 179px;
+        }
+        
+        .Credit-Container {
+            margin: 0 0 0 10px;
+            position: relative;
+            padding: 0 0 65px 0;
+        }
+        
+        .Credits {
+            font-size: 19px;
+            position: relative;
+            left: 179px;
+        }
+        
+        .Credit-1 {
+            margin-right: 38px;
+        }
+        
+        .Credit-2 {
+            margin-right: 38px;
+        }
+        
+        .Credit-3 {
+            margin-right: 38px;
+        }
+        
+        .Credit-4 {
+            margin-right: 38px;
+        }
+        
+        .Credit-1, .Credit-2, .Credit-3, .Credit-4 {
+            position: relative;
+            left: 37px;
+            top: -22px;
+        }
+        
+        .credlink {
+            position: relative;
+            top: 63px;
+        }
+        
+        .Credits-2 {
+            position: relative;
+            margin: 0 0 0 127px;
+            right: 607px;
+            top: 124px;
+            font-size: 17px;
+            line-height: 36px;
+        }
+        
+        .Date  {
+            font-size: 20px;
+            line-height: 36px;
+        }
+        
+        .Date-1 {
+            font-size: 17px;
+            line-height: 36px;
+            position: relative;
+            top: -25px;
+        }
+        
+        .Envarsus-Logo-2 {
+            height: 53px;
+            position: relative;
+            left: -14px;
+            top: 97px;
+        }
+        
+        .Chiesi-Logo-2 {
+            position: relative;
+            left: -66px;
+            top: 70px;
+        }
+        
+        .line2 {
+        
+            position: relative;
+            bottom: 95px;
+            left: 222px;
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
